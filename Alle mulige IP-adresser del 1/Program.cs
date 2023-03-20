@@ -10,7 +10,7 @@ namespace Programmeringsoppgave___alle_mulige_IP_adresser___del_1
             Console.WriteLine("Alle mulige IP-adresser:");
             ipListGenerator();
 
-            
+            // hei
 
 
             Console.ReadKey();
