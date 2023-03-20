@@ -10,8 +10,9 @@ namespace Programmeringsoppgave___alle_mulige_IP_adresser___del_1
             Console.WriteLine("Alle mulige IP-adresser:");
             ipListGenerator();
 
-            // hei
-
+            List<string> lista;
+            lista = ipListGenerator().Take(5).ToList();// tar bare 5
+            var collection = ipListGenerator().Take(5);
 
             Console.ReadKey();
         }
